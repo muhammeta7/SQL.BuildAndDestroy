@@ -1,58 +1,59 @@
-CREATE TABLE Students (
-	student_name VARCHAR(50),
-	address VARCHAR(50),
-	city VARCHAR(50),
-	postal_code VARCHAR(50),
-	country VARCHAR(50)
+create table Students (
+	id INT,
+	SudentName VARCHAR(50),
+	Address VARCHAR(50),
+	City VARCHAR(50),
+	PostalCode VARCHAR(50),
+	Country VARCHAR(50)
 );
-
-insert into Students (student_name, address, city, postal_code, country) values ('Kelwin Gobat', '179 Kingsford Lane', 'Luodian', null, 'China');
-insert into Students (student_name, address, city, postal_code, country) values ('Dulce McCritchie', '53822 Thackeray Alley', 'Souto', '4690-580', 'Portugal');
-insert into Students (student_name, address, city, postal_code, country) values ('Feliks Schott', '023 Starling Terrace', 'Pasarbaru', null, 'Indonesia');
-insert into Students (student_name, address, city, postal_code, country) values ('Robb Sambrook', '77024 Express Hill', 'Hats’avan', null, 'Armenia');
-insert into Students (student_name, address, city, postal_code, country) values ('Germayne Brewitt', '939 Algoma Drive', 'Shangping', null, 'China');
-insert into Students (student_name, address, city, postal_code, country) values ('Bev Hestrop', '5820 Fieldstone Hill', 'Dvorovi', null, 'Bosnia and Herzegovina');
-insert into Students (student_name, address, city, postal_code, country) values ('Willie McNess', '98366 International Lane', 'Dingshan', null, 'China');
-insert into Students (student_name, address, city, postal_code, country) values ('Bron Heaysman', '7 Holmberg Alley', 'Pécs', '7631', 'Hungary');
-insert into Students (student_name, address, city, postal_code, country) values ('Nessa Shankle', '1361 Havey Way', 'São Marcos', '95190-000', 'Brazil');
-insert into Students (student_name, address, city, postal_code, country) values ('Florenza Winscum', '7 Sunbrook Pass', 'Forquilhinha', '88850-000', 'Brazil');
-insert into Students (student_name, address, city, postal_code, country) values ('Cinderella Halley', '314 Darwin Street', 'Aloleng', '2408', 'Philippines');
-insert into Students (student_name, address, city, postal_code, country) values ('Dennie Bambery', '6846 Vidon Place', 'Bungur', null, 'Indonesia');
-insert into Students (student_name, address, city, postal_code, country) values ('Allie Easter', '3431 Heffernan Place', 'Vichuga', '155334', 'Russia');
-insert into Students (student_name, address, city, postal_code, country) values ('Tedie Montier', '6 Trailsway Pass', 'Igcocolo', '5029', 'Philippines');
-insert into Students (student_name, address, city, postal_code, country) values ('Fianna Coldham', '23118 Meadow Vale Junction', 'Izvestkovyy', '682652', 'Russia');
-insert into Students (student_name, address, city, postal_code, country) values ('Gracie Godard', '83293 Vahlen Road', 'Bidikotak', null, 'Indonesia');
-insert into Students (student_name, address, city, postal_code, country) values ('Rhodia Selvey', '49416 David Parkway', 'Lipinki Łużyckie', '68-213', 'Poland');
-insert into Students (student_name, address, city, postal_code, country) values ('Obediah Giller', '676 Arrowood Center', 'Makar’yev', '157460', 'Russia');
-insert into Students (student_name, address, city, postal_code, country) values ('Ava Asson', '7 Dottie Terrace', 'Taboc', '9007', 'Philippines');
-insert into Students (student_name, address, city, postal_code, country) values ('Katha Campanelle', '1 Dawn Alley', 'Pañgobilian', '9217', 'Philippines');
-insert into Students (student_name, address, city, postal_code, country) values ('Rogers Harniman', '37978 Starling Road', 'Évry', '91044 CEDEX', 'France');
-insert into Students (student_name, address, city, postal_code, country) values ('Chryste Mingauld', '5 Harbort Drive', 'Danzao', null, 'China');
-insert into Students (student_name, address, city, postal_code, country) values ('Sabra Domerque', '1718 Cordelia Plaza', 'Kukawa', null, 'Nigeria');
-insert into Students (student_name, address, city, postal_code, country) values ('Wilhelmine Addlestone', '72185 Corben Avenue', 'Радолишта', '6339', 'Macedonia');
-insert into Students (student_name, address, city, postal_code, country) values ('Aldous Robus', '3878 Loomis Place', 'Figueira Castelo Rodrigo', '6440-104', 'Portugal');
-insert into Students (student_name, address, city, postal_code, country) values ('Sidoney Keerl', '26026 Caliangt Street', 'Forninho', '2965-223', 'Portugal');
-insert into Students (student_name, address, city, postal_code, country) values ('Lina Corradini', '4 Novick Place', 'Azinhal', '8950-023', 'Portugal');
-insert into Students (student_name, address, city, postal_code, country) values ('Pancho Cockerell', '411 Macpherson Point', 'Badagry', null, 'Nigeria');
-insert into Students (student_name, address, city, postal_code, country) values ('Maryl Severs', '1 School Circle', 'Cipadung Timur', null, 'Indonesia');
-insert into Students (student_name, address, city, postal_code, country) values ('Sydelle Berggren', '239 Moose Plaza', 'San Pascual', '5420', 'Philippines');
-insert into Students (student_name, address, city, postal_code, country) values ('Freeman Prettejohns', '6 Almo Point', 'Katrineholm', '641 22', 'Sweden');
-insert into Students (student_name, address, city, postal_code, country) values ('Lyon Hammett', '1283 Schurz Center', 'Baicheng', null, 'China');
-insert into Students (student_name, address, city, postal_code, country) values ('Shay Puckinghorne', '7819 Oxford Alley', 'Patao', '6052', 'Philippines');
-insert into Students (student_name, address, city, postal_code, country) values ('Sibbie Rainbow', '778 Gerald Avenue', 'Comalapa', null, 'Nicaragua');
-insert into Students (student_name, address, city, postal_code, country) values ('Anette Roxbrough', '4799 Crownhardt Circle', 'Venado Tuerto', '2600', 'Argentina');
-insert into Students (student_name, address, city, postal_code, country) values ('Pietro Baty', '6596 5th Center', 'Ganzi', null, 'China');
-insert into Students (student_name, address, city, postal_code, country) values ('Scarface Adamowitz', '39481 Mayfield Road', 'Zinder', null, 'Niger');
-insert into Students (student_name, address, city, postal_code, country) values ('Korella Payze', '0729 Main Junction', 'San Juan de Manapiare', null, 'Venezuela');
-insert into Students (student_name, address, city, postal_code, country) values ('Grethel Lummasana', '930 Elgar Circle', 'Tianxing', null, 'China');
-insert into Students (student_name, address, city, postal_code, country) values ('Dita Rampley', '36 Sommers Avenue', 'Mozdok', '363759', 'Russia');
-insert into Students (student_name, address, city, postal_code, country) values ('Willy Tudball', '418 Elka Plaza', 'Ziliang', null, 'China');
-insert into Students (student_name, address, city, postal_code, country) values ('Filippo Willshere', '64581 Harper Lane', 'Shuanghe', null, 'China');
-insert into Students (student_name, address, city, postal_code, country) values ('Ingeberg Puleque', '82 Doe Crossing Street', 'Kralice na Hané', '798 12', 'Czech Republic');
-insert into Students (student_name, address, city, postal_code, country) values ('Farly Sherr', '183 Lighthouse Bay Hill', 'Malanay', '2419', 'Philippines');
-insert into Students (student_name, address, city, postal_code, country) values ('Kali Symcox', '0487 Bonner Terrace', 'Oslo', '1291', 'Norway');
-insert into Students (student_name, address, city, postal_code, country) values ('Otto Silmon', '01443 Hanson Court', 'Santiago de Subrrifana', '4560-776', 'Portugal');
-insert into Students (student_name, address, city, postal_code, country) values ('Kele Muldowney', '37165 Waubesa Court', 'Yŏnggwang-ŭp', null, 'North Korea');
-insert into Students (student_name, address, city, postal_code, country) values ('Shanda Seman', '8750 Waywood Center', 'Arbois', '39605 CEDEX', 'France');
-insert into Students (student_name, address, city, postal_code, country) values ('Lem Balasini', '38698 Spohn Lane', 'Denglong', null, 'China');
-insert into Students (student_name, address, city, postal_code, country) values ('Roberta Simson', '89 Gateway Drive', 'Santa Rosa', '48966', 'Mexico');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (1, 'Grete Keddy', '4 Laurel Hill', 'Boluo', null, 'China');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (2, 'Brannon De Beauchamp', '13 Larry Place', 'Philadelphia', '48484', 'United States');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (2, 'Brannon De Beauchamp', '13 Larry Place', 'New York City', '10160', 'United States');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (3, 'Moll Lindores', '46 Gateway Center', 'Walahir', null, 'Indonesia');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (4, 'Carlye Tillyer', '622 Memorial Court', 'Mosteiros', '9555-145', 'Portugal');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (5, 'Amaleta Joiris', '36141 Annamark Point', 'Joliette', 'J6E', 'Canada');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (6, 'Kimbell Tullis', '0 Lerdahl Hill', 'Tapas', '5814', 'Philippines');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (7, 'Joannes Perl', '74242 Laurel Circle', 'Rongxi', null, 'China');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (8, 'Ilysa Burdess', '1 Luster Alley', 'Sarreguemines', '57204 CEDEX', 'France');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (9, 'Jody Folling', '52235 Quincy Way', 'Saint Paul', '55123', 'United States');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (10, 'Eleanora Hrachovec', '1 Carey Pass', 'Leonídio', null, 'Greece');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (11, 'Odelia Gwyneth', '4307 Pepper Wood Parkway', 'Tasikona', null, 'Indonesia');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (12, 'Zolly Hancell', '06661 Cottonwood Way', 'Bigaan', '6105', 'Philippines');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (13, 'Dona Papps', '28397 Mcbride Avenue', 'Estância Velha', '93600-000', 'Brazil');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (14, 'Sophronia McKelvey', '3897 Fuller Point', 'Merik', null, 'Indonesia');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (15, 'Danila Gerren', '93090 Sheridan Road', 'Belalcazar', '177007', 'Colombia');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (16, 'Lorne Callaway', '8 Little Fleur Road', 'Ganjaran', null, 'Indonesia');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (17, 'Vilhelmina Absolem', '40 Clyde Gallagher Way', 'Wang’er', null, 'China');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (18, 'Kellie Endrighi', '87 Bashford Junction', 'Hexia', null, 'China');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (19, 'Jeanna Blew', '5879 Bartillon Terrace', 'Áyios Nikólaos', null, 'Greece');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (20, 'Marv Dearnaly', '93003 Bunker Hill Alley', 'Regidor', '133567', 'Colombia');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (21, 'Alyosha Allardyce', '19858 Montana Junction', 'Cibiru', null, 'Indonesia');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (22, 'Nicko Gabrieli', '450 Scofield Plaza', 'Stockholm', '103 16', 'Sweden');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (23, 'Kip Schohier', '2326 Florence Road', 'Nakhon Pathom', '95140', 'Thailand');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (24, 'Nathaniel Ingarfill', '33 Stang Hill', 'Usquil', null, 'Peru');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (25, 'Giacinta Dillicate', '48152 Sommers Junction', 'Mancagahar', null, 'Indonesia');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (26, 'Saul Croker', '41 Bunting Center', 'Taha Man Zu', null, 'China');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (27, 'Andras MacDwyer', '97 Eggendart Junction', 'Leme', '13610-000', 'Brazil');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (28, 'Lotti Croot', '296 Hoffman Circle', 'Menggala', null, 'Indonesia');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (29, 'Gustav Loseby', '5 Corben Junction', 'Adelaide Mail Centre', '5889', 'Australia');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (30, 'Shaina Brogi', '5181 Rockefeller Center', 'Malicboy', '5606', 'Philippines');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (31, 'Hernando Bratt', '09 Petterle Road', 'Tiko', null, 'Cameroon');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (32, 'Evania Abrams', '3668 Waywood Circle', 'Asan', null, 'South Korea');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (33, 'Burl Puttergill', '07894 8th Terrace', 'Jiupu', null, 'China');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (34, 'Tobye Shrieve', '412 Thierer Lane', 'Madala', null, 'Nigeria');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (35, 'Jillayne Sparhawk', '304 Roxbury Hill', 'Al Karāmah', null, 'Syria');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (36, 'Rosalinde Scheffler', '207 Coolidge Road', 'Mpanda', null, 'Tanzania');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (37, 'Bonny Gonzalvo', '45 Burning Wood Court', 'Guleluke', null, 'China');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (38, 'Venus Godon', '31908 Spenser Place', 'Naro-Fominsk', '143316', 'Russia');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (39, 'Ninon Georgievski', '0 David Court', 'Bei’an', null, 'China');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (40, 'Niccolo Pavlata', '1 Armistice Alley', 'Opatówek', '62-860', 'Poland');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (41, 'Loutitia Jacob', '26892 3rd Plaza', 'Phu Kam Yao', '23110', 'Thailand');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (42, 'Bentley Willarton', '300 Arrowood Terrace', 'Islāmkot', '69240', 'Pakistan');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (43, 'Rodolfo Pideon', '1877 Hansons Circle', 'Jianshan', null, 'China');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (44, 'Nisse Duplock', '8870 Ilene Street', 'Ivanovo', '352620', 'Russia');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (45, 'Asher Methingam', '583 Warrior Pass', 'Cavalões', '4760-421', 'Portugal');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (46, 'Stanfield Shoebotham', '03618 Melrose Trail', 'Duli', null, 'China');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (47, 'Blake McGrorty', '5133 Bowman Junction', 'Gunungsubang', null, 'Indonesia');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (48, 'Errol Widdows', '771 Northfield Circle', 'Mykolayiv', null, 'Ukraine');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (49, 'Wilow Galbreth', '7165 Warrior Crossing', 'Anju', null, 'China');
+insert into Students (id, SudentName, Address, City, PostalCode, Country) values (50, 'Zelda Niccolls', '4 Gale Parkway', 'Ulricehamn', '523 90', 'Sweden');
